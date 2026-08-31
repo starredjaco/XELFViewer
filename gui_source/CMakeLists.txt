@@ -29,7 +29,6 @@ find_package(Qt5 COMPONENTS Network REQUIRED)
 find_package(Qt5 COMPONENTS Script REQUIRED)
 find_package(Qt5 COMPONENTS ScriptTools REQUIRED)
 
-add_definitions(-DUSE_ARCHIVE)
 
 include(${PROJECT_SOURCE_DIR}/../archive_widget/archive_widget.cmake)
 include(${PROJECT_SOURCE_DIR}/../XAboutWidget/xaboutwidget.cmake)
